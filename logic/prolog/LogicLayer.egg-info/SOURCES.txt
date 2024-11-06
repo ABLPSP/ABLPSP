@@ -1,0 +1,8 @@
+README.md
+logiclayer_module.cpp
+setup.cfg
+setup.py
+LogicLayer.egg-info/PKG-INFO
+LogicLayer.egg-info/SOURCES.txt
+LogicLayer.egg-info/dependency_links.txt
+LogicLayer.egg-info/top_level.txt
