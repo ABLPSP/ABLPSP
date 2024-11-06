@@ -1,6 +1,6 @@
 This is the code repository of experiments in A Smooth Transition Between Induction and Deduction: Fast Abductive Learning Based on Probabilistic Symbol Perception.
 
-# Environment dependency
+## Environment dependency
 1. Swi-Prolog
 2. Python3 with Numpy, Tensorflow and Keras
 3. ZOOpt (as a submodule)
@@ -45,6 +45,11 @@ cd src/logic/prolog
 python3 setup.py install
 ```
 
+## Run the code
+Below is an example of running the code, where the experiment is conducted on device 0 using the hms dataset, with the knowledge base access limited to 5 times.
+```python
+python ABL_PSP.py --device 0 --dataset hms --budget 5
+```
 
 
 
