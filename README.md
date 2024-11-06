@@ -12,16 +12,16 @@ http://www.swi-prolog.org/build/unix.html
 https://wiki.python.org/moin/BeginnersGuide/Download
 
 ## Install required package
-'''
+···
 #install numpy tensorflow keras
 pip3 install numpy
 pip3 install tensorflow
 pip3 install keras
 pip3 install zoopt
-'''
+···
 
 ## Set environment variables(Should change file path according to your situation)
-'''
+···
 #cd to ABL-HED
 git submodule update --init --recursive
 
@@ -33,12 +33,12 @@ export SWI_HOME_DIR=/usr/local/lib/swipl/
 
 # for GPU user
 export LD_LIBRARY_PATH=$ABL_HOME/src/logic/lib:/usr/local/cuda:$LD_LIBRARY_PATH
-'''
+···
 
 ## Install Abductive Learning code
 First change the swipl_include_dir and swipl_lib_dir in setup.py to your own SWI-Prolog path.
-'''
+···
 cd src/logic/prolog
 python3 setup.py install
-'''
+···
 
