@@ -45,3 +45,12 @@ cd src/logic/prolog
 python3 setup.py install
 ···
 
+
+渲染效果：
+
+```javascript
+// 这是一个 JavaScript 代码块示例
+function greet() {
+    console.log("Hello, GitHub!");
+}
+
